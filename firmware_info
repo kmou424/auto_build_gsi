@@ -1,4 +1,4 @@
 FIRMWARE_OS="Pixel"
 FIRMWARE_DEVICE="redfin"
 FIRMWARE_MODEL="Pixel 5"
-FIRMWARE_LINK="https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spb3.210618.016-388f48a6.zip"
+FIRMWARE_LINK="https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spb4.210715.011-14e5fa00.zip"
