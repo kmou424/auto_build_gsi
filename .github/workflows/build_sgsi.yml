@@ -64,10 +64,10 @@ jobs:
          run: |            
            cd $GITHUB_WORKSPACE/SGSI-build-tool/SGSI
            pwd
-           7za a -t7z -r  ${{ env.FIRMWARE_OS }}-AB-S-${{ env.DATE }}.7z *
+           7za a -t7z -r  ${{ env.FIRMWARE_OS }}-AB-12-${{ env.DATE }}.7z *
            mv *.7z $GITHUB_WORKSPACE/output/
            cd $GITHUB_WORKSPACE/output
-           ls ${{ env.FIRMWARE_OS }}-AB-S-${{ env.DATE }}.7z
+           ls ${{ env.FIRMWARE_OS }}-AB-12-${{ env.DATE }}.7z
            rm -rf $GITHUB_WORKSPACE/SGSI-build-tool/SGSI/*
            cd $GITHUB_WORKSPACE/SGSI-build-tool
 
@@ -81,10 +81,10 @@ jobs:
          run: |            
            cd $GITHUB_WORKSPACE/SGSI-build-tool/SGSI
            pwd
-           7za a -t7z -r  ${{ env.FIRMWARE_OS }}-Aonly-S-${{ env.DATE }}.7z *
+           7za a -t7z -r  ${{ env.FIRMWARE_OS }}-Aonly-12-${{ env.DATE }}.7z *
            mv *.7z $GITHUB_WORKSPACE/output/
            cd $GITHUB_WORKSPACE/output
-           ls ${{ env.FIRMWARE_OS }}-Aonly-S-${{ env.DATE }}.7z
+           ls ${{ env.FIRMWARE_OS }}-Aonly-12-${{ env.DATE }}.7z
            rm -rf $GITHUB_WORKSPACE/SGSI-build-tool/SGSI/*
            cd $GITHUB_WORKSPACE/SGSI-build-tool
 
